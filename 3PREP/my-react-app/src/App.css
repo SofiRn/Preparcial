@@ -1,0 +1,48 @@
+.app-nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  background: #6366f1;
+  padding: 16px 24px;
+  border-radius: 0 0 14px 14px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 8px #0001;
+}
+
+.app-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.app-nav a:hover {
+  background: #4338ca;
+}
+
+.app-nav button {
+  margin-left: auto;
+  background: #fff;
+  color: #6366f1;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.app-nav button:hover {
+  background: #6366f1;
+  color: #fff;
+}
+
+.app-container {
+  min-height: 100vh;
+  background: #e0e7ff;
+  padding-bottom: 40px;
+}

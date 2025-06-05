@@ -1,0 +1,15 @@
+.home-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px #0002;
+}
+
+.home-title {
+  text-align: center;
+  color: #2d2d2d;
+  margin-bottom: 24px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
